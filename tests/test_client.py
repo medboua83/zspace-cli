@@ -1,6 +1,7 @@
 """Tests for zspace_cli.client — API URL construction, paging, upload/download."""
 
-from unittest.mock import MagicMock
+from pathlib import Path
+from unittest.mock import MagicMock, patch
 
 import pytest
 
